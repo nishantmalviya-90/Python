@@ -10,13 +10,13 @@
 # print(y)
 # print(x)
 
-x=10
-def show():
-    global x
-    x=20
-    return x
+# x=10
+# def show():
+#     global x
+#     x=20
+#     return x
 
-print(x)    
-y=show()
-print(y)
-print(x)
+# print(x)    
+# y=show()
+# print(y)
+# print(x)
