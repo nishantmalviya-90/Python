@@ -13,10 +13,9 @@
 # new_list=list(map(add,my_list1,my_list2))
 # print(new_list)
 
-<<<<<<< HEAD
+
 # x=lambda a,b:a+b
 # print(list(map(x,[1,2,3,4],[3,4,5,6])))
-=======
+
 #x=lambda a,b:a+b
 #print(list(map(x,[1,2,3,4],[3,4,5,6])))
->>>>>>> 68b632bb27f69afd7bc0be3aa948989f218e75ab
