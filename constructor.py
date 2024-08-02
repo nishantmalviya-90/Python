@@ -31,3 +31,14 @@ obj=student()
 print(id(obj))
 obj1=student()
 print(id(obj1))
+
+# const. kitna v ho wo last walo ko hi read krga
+# n number of argument pass kr skta hai const. me isme koi limit nahi hoti hai
+class student:
+    def __init__(self,x):
+        print("")
+    def __init__(self,x,y):
+        print("")
+    def __init__(self,x,y,z):
+        print("")
+obj=student(2,4,3)
