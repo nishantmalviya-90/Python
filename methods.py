@@ -42,3 +42,19 @@ obj=Student()
 obj.display()
 obj.show()
 print(__dict__(Student))
+
+
+# Class Methods :-
+class Book:
+    price=1000
+    def details(self,author_name,author_city):
+        print('Name=',author_name)
+        print('City=',author_city)
+        print('Price=',Book.price)
+    @classmethod
+    def update_price(cls,update_price):
+        cls.price = update_price
+obj=Book()
+obj.details('Dev','Sagar')
+obj.update_price(15000)
+obj.details('Dev','Sagar')
